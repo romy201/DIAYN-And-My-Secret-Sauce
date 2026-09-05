@@ -4,6 +4,7 @@ for the experiments continuous z's skills were used.
 
 
 ## Initial Results
+each is a single run, but no hyper param optimization was done of any kind. simply drop in DIAYN from their repo, and added my element where params for my method were kept consistent across the envs and were chosen arbitrarily.
 
 | Environment | Point | ObstaclePoint | Reacher | MountainCarContinuous |
 |---|---:|---:|---:|---:|
@@ -16,6 +17,7 @@ for the experiments continuous z's skills were used.
 
 ### Baselines
 - Comparison to more recent skill discovery methods.
+- also compare after doing hyper param optimization for all methods
 
 ### Environments
 - Comparison in more environments, specifically ones used in the literature.
@@ -36,12 +38,9 @@ for the experiments continuous z's skills were used.
 ### Statistical significance testing
 - In general more Robust experimentation with multi seed runs for each environment and test statistical significance.
 
+
 currently the idea is the bare bones implementations. (simple and elegant and works)
 but exploring other implementations and how they effect the all of the results, and why.
-
-initial results -
-each is a single run, but no hyper parem optimization was done of any kind. simply drop in DIAYN from their repo, and added my element where params for it were kept consistent across the envs and were chosen arbitrarily (I was surprised myself that it works like that off the gate) 
-
 
 
 code will be released after publication.
