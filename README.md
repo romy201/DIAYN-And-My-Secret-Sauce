@@ -39,3 +39,10 @@ each is a single run, but no hyper parem optimization was done of any kind. simp
 | DIAYN | 72.7% | 38.1% | 61.8% | 49.3% |
 | **My** | **81.2%** | **74.2%** | **69.3%** | **60.1%** |
 
+
+
+
+
+code will be released after publication.
+or after doing further experiments and deciding that the results so far were all accidental haha and there is nothing interesting here. (so far not looking like that is the case)
+
