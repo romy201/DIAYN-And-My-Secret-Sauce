@@ -2,6 +2,16 @@ Added a simple element to DIAYN which increases coverage across different enviro
 DIAYN code was taken from the original paper repo.
 for the experiments continuous z's skills were used.
 
+
+## Initial Results
+
+| Environment | Point | ObstaclePoint | Reacher | MountainCarContinuous |
+|---|---:|---:|---:|---:|
+| DIAYN | 72.7% | 38.1% | 61.8% | 49.3% |
+| **My** | **81.2%** | **74.2%** | **69.3%** | **60.1%** |
+
+
+
 ## Further Experiments Required
 
 ### Baselines
@@ -31,15 +41,6 @@ but exploring other implementations and how they effect the all of the results, 
 
 initial results -
 each is a single run, but no hyper parem optimization was done of any kind. simply drop in DIAYN from their repo, and added my element where params for it were kept consistent across the envs and were chosen arbitrarily (I was surprised myself that it works like that off the gate) 
-
-## Initial Results
-
-| Environment | Point | ObstaclePoint | Reacher | MountainCarContinuous |
-|---|---:|---:|---:|---:|
-| DIAYN | 72.7% | 38.1% | 61.8% | 49.3% |
-| **My** | **81.2%** | **74.2%** | **69.3%** | **60.1%** |
-
-
 
 
 
