@@ -46,3 +46,8 @@ but exploring other implementations and how they effect the all of the results, 
 code will be released after publication.
 or after doing further experiments and deciding that the results so far were all accidental haha and there is nothing interesting here. (so far not looking like that is the case)
 
+
+** after further tests, in pixel based envs increased coverage dosnt happen in DIAYN or METRA when za sauce is added. **
+it does effect the behavior in an interesting way which i didnt manage to quantify.
+it dosent break anything but coverage does go down a bit. the behavior seems more coherent further tests on downstream seeing if for a hierarchical controller might be easier time to use either the vanilla version or with the added bonus thingy.
+
